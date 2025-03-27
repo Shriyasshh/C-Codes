@@ -8,7 +8,7 @@ void main()
     char str[21]="cse fy jnec students";
     char str1[10]="Operator";
 
-    //to lowercase
+    //to Uppercase
     
     for(int i=0; str[i];i++)
     {
@@ -16,7 +16,7 @@ void main()
     }
         printf("%s\n",str);
 
-    //to Uppercase
+    //to Lowercase
     for(int i=0; str1[i];i++)
     {
         str1[i]=tolower(str1[i]);
